@@ -7,4 +7,4 @@ import datetime
 attendance_records = {}
 
 # Main application class
-class AttendanceApp:
+class AttendanceApp: 
