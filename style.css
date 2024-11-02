@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    background-color: aqua;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.rectangle{
+    width: 200px;
+    height: 80px;
+    text-align: left;
+    background-color: grey;
+    padding: 30px;
+    padding-left: 150px;
+
+}
+
+.image{
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.action{
+    white-space: nowrap;
+}
