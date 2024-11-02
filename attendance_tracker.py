@@ -5,3 +5,6 @@ import datetime
 
 #Dictionary to store all data 
 attendance_records = {}
+
+# Main application class
+class AttendanceApp:
