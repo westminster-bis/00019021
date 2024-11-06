@@ -17,7 +17,7 @@ class attendanceapp:
         center_frame.place(relx=0.5, rely=0.5, anchor="center")
         
         #Start button to enter the menu
-        start_button = tk.Button(center_frame, text="Start attendance tracker", #command=self.open_main_menu,
+        start_button = tk.Button(center_frame, text="Start attendance tracker", command=self.open_main_menu,
                                   bg="white", font=("montserrat", 20, "bold"), bd=5, relief="raised")
         start_button.grid(row=0, column=0)
 
@@ -33,6 +33,15 @@ class attendanceapp:
         e.widget["bg"] = "darkgreen"  # Gets green when on hover
     def not_hover(self, e):
         e.widget["bg"] = "white"      # Returns to inital color
+
+
+        # Main manu
+    def open_main_menu(self):
+        main_window = tk.Toplevel(self.root)
+        main_window.title("Main menu")
+        main_window.geometry("500x700")
+        main_window.config(bg="aquablue")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
