@@ -42,6 +42,8 @@ class attendanceapp:
         main_window.geometry("500x700")
         main_window.config(bg="aquablue")
 
+        # Buttons with functions and style
+
 
 if __name__ == "__main__":
     root = tk.Tk()
