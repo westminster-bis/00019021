@@ -1,6 +1,6 @@
-import tkinter as tk
-from tkinter import messagebox
-import datetime
+import tkinter as tk  # Adding library
+from tkinter import messagebox  # Importing from tkinkter library
+import datetime  # Importing date
 
 # Dictionary to store the date
 attendance_records = {}
